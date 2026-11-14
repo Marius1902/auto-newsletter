@@ -8,7 +8,7 @@ tagline: "L'IA pour créateurs et game devs : outils, tendances, idées à teste
 site_url: ""
 
 # Plus tard, pour activer les emails : ton nom d'utilisateur Buttondown (ex: pixelandprompt).
-buttondown_username: "Suiram"
+buttondown_username: "pixelandprompt"
 
 model: "claude-sonnet-5-5"
 lookback_days: 3     # on regarde les articles des 3 derniers jours
