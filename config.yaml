@@ -1,0 +1,57 @@
+# ====== À PERSONNALISER ======
+name: "Pixel & Prompt"
+tagline: "L'IA pour créateurs et game devs : outils, tendances, idées à tester. Chaque matin."
+site_url: "https://TON-PSEUDO.github.io/auto-newsletter"   # URL GitHub Pages
+language: fr
+model: "claude-sonnet-5-5"
+lookback_days: 2
+max_items: 8
+min_items: 3
+
+# Angle éditorial : Claude privilégie ces sujets et ignore le reste
+focus: >
+  IA générative appliquée à la création de contenu (vidéo, image, voix, écriture,
+  réseaux sociaux) et au jeu vidéo (développement, outils indés, IA dans les jeux,
+  sorties marquantes). Pour chaque sujet, donne une idée concrète à tester
+  ou une façon d'en tirer parti (« Ton move du jour »).
+
+# Vérifie que ces flux répondent avant le premier lancement
+feeds:
+  - https://korben.info/feed
+  - https://www.numerama.com/feed/
+  - https://techcrunch.com/category/artificial-intelligence/feed/
+  - https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+  - https://www.gamedeveloper.com/rss.xml
+
+# Programmes d'affiliation de ta niche : remplace TON_CODE après inscription
+affiliates:
+  - name: "ElevenLabs"
+    url: "https://elevenlabs.io/?from=TON_CODE"
+    keywords: ["voix", "elevenlabs", "synthèse vocale", "doublage"]
+    pitch: "Voix IA réalistes pour vidéos, jeux et podcasts."
+  - name: "Canva"
+    url: "https://partner.canva.com/TON_CODE"
+    keywords: ["canva", "design", "miniature", "visuel"]
+    pitch: "Créer visuels et miniatures en quelques minutes."
+  - name: "Make"
+    url: "https://www.make.com/?pc=TON_CODE"
+    keywords: ["make", "no-code", "automatisation", "workflow"]
+    pitch: "Automatiser ta production de contenu sans coder."
+  - name: "Epidemic Sound"
+    url: "https://www.epidemicsound.com/referral/TON_CODE"
+    keywords: ["musique", "son", "bande-son", "audio"]
+    pitch: "Musiques libres de droits pour vidéos et jeux."
+  - name: "Notion"
+    url: "https://affiliate.notion.so/TON_CODE"
+    keywords: ["notion", "productivité", "planning"]
+    pitch: "Organiser ton calendrier éditorial et tes projets."
+
+# Emplacement sponsor (laisse vide tant que tu n'as pas de sponsor)
+sponsor:
+  text: ""
+  url: ""
+
+# Envoi email via Buttondown (clé dans BUTTONDOWN_API_KEY)
+email:
+  enabled: true
+  auto_send: false   # false = brouillon à valider; true = envoi automatique
